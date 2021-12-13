@@ -9,7 +9,7 @@ while x < 22:
 Count by 2's and display all the numbers, 1 on each line.
 Continue until the current value is 20
 You will need to keep track of a current value, and modify
-or update the current value through every iteration of the
+or update the current value through every iteration of thel
 while loop
 
 (2 marks)
