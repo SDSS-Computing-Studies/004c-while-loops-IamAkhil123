@@ -1,14 +1,18 @@
 #! python3
-input().strip()
-print("enter the username")
-x = input()
-print("enter the password")
-b = input()
 
-if str(x) == "admin" and str(b) == "12345":
-    print ("Access granted")
+a = "admin"
+b = "12345"
+
+while a == "admin" and b == "12345":
+ x = input("enter the username")
+ y = input("enter the password")
+while 
+ 
+if x == "admin" and y == "12345":
+  print("Access granted")
 else:
-     print ("Access denied")
+  print("Access denied")
+
 """
 Have the user enter a username and password.
 Repeat this until both the username and password match the 
@@ -36,6 +40,4 @@ Access denied
 Enter username: admin
 Enter password: 12345
 Access granted
-
-
-"""
+""" 
