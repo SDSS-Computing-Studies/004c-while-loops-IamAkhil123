@@ -1,16 +1,23 @@
 #! python3
 
+x = 1
 
+y = 34
+
+b = str(x) + str(y) = 2
+
+while b == True:
+ print("brhuh")
+
+"""
 print("enter a number")
 x = input()
 if (float(x) % 2) == 0:
  print("That is an even integer")
-else:
- while (float(x) % 2) == 0:
-  print("enter a number")
-  input()
 
-
+while (float(x) % 2) == 0:
+  input("That is not an even integer")
+"""
 """
 Ask the user to enter in a number.
 Have them repeat this until the number is an even integer.
