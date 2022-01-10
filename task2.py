@@ -1,13 +1,12 @@
 #! python3
 
-a = "admin"
-b = "12345"
+x = input()
+y = input()
 
-while a == "admin" and b == "12345":
+while str(x) == "admin" and str(y) == "12345":
  x = input("enter the username")
  y = input("enter the password")
-while 
- 
+else:
 if x == "admin" and y == "12345":
   print("Access granted")
 else:
