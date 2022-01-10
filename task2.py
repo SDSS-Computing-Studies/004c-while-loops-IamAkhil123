@@ -1,25 +1,18 @@
 #! python3
+import time
 
+x = "admin"
+y = "12345"
 
-while a == "admin" and b == "12345":
- a = input("Enter password")
- b = input("Enter username")
-
-
-if a == "admin" and b == "12345":
-  print("Access granted")
-else:
-  print("Access denied")
-
-"""
-password = input("Enter password:")
-Password = "12345"
-
-while password == False:
-    print("Access denied")
-    if password == Password:
-        print("Access granted")
-"""
+while True:
+ username = input("Enter username")
+ password = input("Enter password")
+ 
+ if username == x and password == y:
+  print("access granted")
+  exit()
+ else:
+  print("access denied")
 
 """
 Have the user enter a username and password.
