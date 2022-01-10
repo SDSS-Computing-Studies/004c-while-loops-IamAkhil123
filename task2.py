@@ -13,7 +13,7 @@ while True:
   print("access denied")
 
 """
-Have the user enter a username and password.
+Have the user enter a username and password.l
 Repeat this until both the username and password match the 
 following:
 Remember to use input().strip() to input str type variables
