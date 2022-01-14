@@ -4,8 +4,7 @@ print("enter a number")
 x = input()
 if (float(x) % 2) == 0:
  print("That is an even integer")
-
-while (float(x) % 2) == 0:
+else:
  x = input("That is not an even integer")
 
 
