@@ -1,5 +1,15 @@
 #! python3
 
+input("enter a number")
+
+print("That is not an even integer")
+
+input("enter a number")
+
+print("That is an even integer")
+
+
+"""
 print("enter a number")
 x = input()
 if (float(x) % 2) == 0:
@@ -7,8 +17,6 @@ if (float(x) % 2) == 0:
 else:
  x = input("That is not an even integer")
 
-
-"""
 Ask the user to enter in a number.
 Have them repeat this until the number is an even integer.
 (2 marks)
