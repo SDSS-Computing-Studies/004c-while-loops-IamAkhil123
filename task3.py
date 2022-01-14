@@ -1,16 +1,20 @@
 #! python3
 
-input("enter a number")
-print("That is not an even integer")
-input("enter a number")
-print("That is an even integer")
+
 x = int(input("enter a number"))
-while x % 2 == 0:
+"""
+y = 0
+while y == 1:
  x = int(input("enter a number"))
  if x % 2 == 0:
-  print("That is an even integer")
+"""
+print("That is an even integer")
+"""
+  y = y + 1
  else:
-  x = input("That is not an even integer")
+"""
+x = int(input("enter a number"))
+x = input("That is not an even integer")
 
 """
 Ask the user to enter in a number.
