@@ -4,11 +4,12 @@ x = "admin"
 y = "12345"
 
 while True:
- username = input("Enter username")
- password = input("Enter password")
+ a = input("Enter username")
+ b = input("Enter password")
  
- if username == x and password == y:
+ if a == x and b == y:
   print("access granted")
+  exit()
  else:
   print("access denied")
 
