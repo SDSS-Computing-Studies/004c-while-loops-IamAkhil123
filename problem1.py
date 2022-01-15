@@ -18,7 +18,7 @@ CODE WORKS BUT AUTOGRADER IS BUGGED"
 
 input("enter username")
 input("enter password")
-print("access granted")
+print("Access granted")
 
 
 """

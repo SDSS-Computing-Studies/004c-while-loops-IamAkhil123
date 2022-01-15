@@ -1,12 +1,11 @@
 #! python3
 
-x = input("Enter a number")
-if x == 2:
-    print("bruh")
-y = 1
-while y == 12:
- print(x*y)
- y = y + 1
+x = int(input("Enter a number"))
+print(x)
+p = 2 
+while p <= 12:
+ print(x * p)
+ p = p + 1
 
 """
 Have the user enter a number.
