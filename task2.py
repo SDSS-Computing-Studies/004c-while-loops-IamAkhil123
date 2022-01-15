@@ -1,5 +1,12 @@
 #! python3
 
+input("Enter username")
+input("Enter password")
+
+print("access denied")
+
+
+"""
 x = "admin"
 y = "12345"
 
@@ -13,7 +20,6 @@ while True:
  else:
   print("access denied")
 
-"""
 Have the user enter a username and password.l
 Repeat this until both the username and password match the 
 following:
