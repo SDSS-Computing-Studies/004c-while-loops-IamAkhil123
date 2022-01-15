@@ -3,7 +3,7 @@
 input("Enter username")
 input("Enter password")
 
-print("access denied")
+print("access granted")
 
 
 """
