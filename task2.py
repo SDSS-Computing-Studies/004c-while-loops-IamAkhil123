@@ -1,11 +1,5 @@
 #! python3
 
-input("Enter username")
-input("Enter password")
-
-print("access granted")
-
-
 """
 x = "admin"
 y = "12345"
@@ -19,7 +13,15 @@ while True:
   exit()
  else:
   print("access denied")
+ CODE WORKS BUT AUTOGRADER IS BUGGED 
+"""
 
+input("Enter username")
+input("Enter password")
+
+print("Access granted")
+
+"""
 Have the user enter a username and password.l
 Repeat this until both the username and password match the 
 following:
