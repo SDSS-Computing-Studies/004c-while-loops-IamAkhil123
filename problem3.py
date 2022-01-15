@@ -1,4 +1,17 @@
 #! python3
+
+x = 13
+
+a, b = 0, 1
+d = 0
+
+while d < x:
+ print(a)
+ c = a + b
+ a = b
+ b = c
+ d += 1
+
 """
 The Fibonacci sequence was created to model how populations
 of bunnies increase over time.  It is also used in strategies

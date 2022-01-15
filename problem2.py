@@ -6,8 +6,6 @@ while p <= 12:
  print(x * p, end=" ")
  p = p + 1
 
-
-
 """
 Have the user enter a number.
 Display the multiples of that number, up to 12 times that number:
