@@ -6,7 +6,7 @@ a, b = 0, 1
 d = 0
 
 while d < x:
- print(a)
+ print(a, end=" ")
  c = a + b
  a = b
  b = c
